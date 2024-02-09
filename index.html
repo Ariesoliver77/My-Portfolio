@@ -1,0 +1,296 @@
+<html lang="en">
+<head>
+<!--HEADERS-->
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <meta name="keywords" content="portfolio,landing page, portfolio website, website, AriesOliver">
+    <meta name="description" content="a single page portfolio or client landing page">
+    <title>Landing Page - AriesOliver</title>
+    
+    <!--STYLESHEET AND FONTAWESOME-->
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/regular.css">
+</head>
+
+<body>
+<main>
+    <div class="nav-bar">
+        <div class="nav-logo">AriesOliver</div>
+        <!--NAV LINKS-->
+        <div class="nav-links">
+        
+            <div id="home" onclick="clickNavLink(event)" class="nav-tab active">
+                <div class="nav-icon"><i class="far fa-house"></i></div>
+                <div class="nav-name">Home</div>
+            </div>
+            <div id="about" onclick="clickNavLink(event)" class="nav-tab">
+                <div class="nav-icon"><i class="far fa-address-card"></i></div>
+                <div class="nav-name">About</div>
+            </div>
+            <div id="service" onclick="clickNavLink(event)" class="nav-tab">
+                <div class="nav-icon"><i class="far fa-server"></i></div>
+                <div class="nav-name">Services</div>
+            </div>
+            <div id="portfolio" onclick="clickNavLink(event)" class="nav-tab">
+                <div class="nav-icon"><i class="far fa-passport"></i></div>
+                <div class="nav-name">Portfolio</div>
+            </div>
+            <div id="blog" onclick="clickNavLink(event)" class="nav-tab">
+                <div class="nav-icon"><i class="far fa-cubes"></i></div>
+                <div class="nav-name">Blog</div>
+            </div>
+            <div id="contact" onclick="clickNavLink(event)" class="nav-tab">
+                <div class="nav-icon"><i class="far fa-id-card"></i></div>
+                <div class="nav-name">Contact</div>
+            </div>
+            
+        </div>
+    </div>
+    <!--BODY DISPLAY-->
+    <div class="general-body">
+        <!--MOBILE NAVIGATION-->
+        <div class="mobile-nav">
+            <div class="mobile-logo">AriesOliver</div>
+            <div onclick="menuToggle(event)" class="mobile-icon"><i class="far fa-bars"></i></div>
+        </div>
+        
+        <div class="body-display">
+            <!--HOME BAR-->
+            <div id="home" class="show-bar">
+                <div class="home-left">
+                    <div class="home-name">Hi, I'm  Aries Oliver</div>
+                    <div class="home-tag">This is meant to be a description of what i do, but I don't have that time. So instead, it is just a bunch of words to fill in space for now.</div>
+                    <div class="home-btn-tab">
+                        <div class="home-btn chat-btn">Message Me</div>
+                        <div class="home-btn call-btn">
+                            <span><i class="far fa-phone"></i></span>
+                            Call Me Now
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="home-right">
+                    <img src="./assets/images/home-image.png">
+                </div>
+            </div>
+            
+            
+            <!--ABOUT BAR-->
+            <div id="about" class="show-bar">
+                <div class="about-title">About Me</div>
+                <div class="about-tag">Creating a unique experience through art</div>
+                
+                <div class="about-detail">
+                    <div class="about-tab">
+                        <div class="about-icon"><i class="far fa-award"></i><span></span></div>
+                        <div class="about-name">My Biography</div>
+                        <div class="about-des">Once again, just a bunch of gibberish to fill in space as a write up for my about description. This write being a biography is just expected to be unnecessarily long to look interesting to the eye of the viewers blah blah blah.</div>
+                        
+                        <div class="about-icon"><i class="far fa-trophy"></i><span></span></div>
+                        <div class="about-name">My Achievements</div>
+                        <div class="about-des">Once again, just a bunch of gibberish to fill in space as a write up for my about description, blah blah blah.</div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="./assets/images/about-image.png"></img>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!--SERVICES BAR-->
+            <div id="service" class="show-bar">
+                <div class="service-title">My Services</div>
+                <div class="service-tag">Bring your dreams to reality with perfection and passion</div>
+                
+                <div class="service-list">
+                    <!--SERVICE LIST-->
+                    <div class="service-cont">
+                        <div class="service-tab">
+                            <div class="service-icon"><i class="far fa-headphones"></i></div>
+                            <div class="service-name">Music Production</div>
+                            <div class="service-des">Let me bring your dream sounds and audio to life via music composition, song writing and editing.</div>
+                        </div>
+                        <div class="service-btn-tab">
+                            <div class="service-btn">Read More</div>
+                        </div>
+                    </div>
+                    <div class="service-cont">
+                        <div class="service-tab">
+                            <div class="service-icon"><i class="far fa-gamepad"></i></div>
+                            <div class="service-name">Game Development</div>
+                            <div class="service-des">Are you a gamer who needs some creative games to keep your mind off things or in check? hit me up now.</div>
+                        </div>
+                        <div class="service-btn-tab">
+                            <div class="service-btn">Read More</div>
+                        </div>
+                    </div>
+                    <div class="service-cont">
+                        <div class="service-tab">
+                            <div class="service-icon"><i class="far fa-marker"></i></div>
+                            <div class="service-name">Content Creation</div>
+                            <div class="service-des">Bring your products, and allow me push them out to the right clients for you in the ever-changing labour market.</div>
+                        </div>
+                        <div class="service-btn-tab">
+                            <div class="service-btn">Read More</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!--PORTFOLIO BAR-->
+            <div id="portfolio" class="show-bar">
+                <div class="portfolio-title">My Portfolio Samples</div>
+                <div class="portfolio-tag">Explore my project samples and bring more works to me</div>
+                
+                <div class="portfolio-list">
+                
+                    <div class="portfolio-tab"><img src="./assets/images/port1.png"><div class="portfolio-cat">Music</div></div>
+                    <div class="portfolio-tab"><img src="./assets/images/port2.png"><div class="portfolio-cat">Game</div></div>
+                    <div class="portfolio-tab"><img src="./assets/images/port3.png"><div class="portfolio-cat">Music</div></div>
+                    <div class="portfolio-tab"><img src="./assets/images/port4.png"><div class="portfolio-cat">Game</div></div>
+                    <div class="portfolio-tab"><img src="./assets/images/port5.png"><div class="portfolio-cat">Content</div></div>
+                    <div class="portfolio-tab"><img src="./assets/images/port6.png"><div class="portfolio-cat">Music</div></div>
+                    
+                </div>
+            </div>
+            
+            
+            
+             <!--BLOG BAR-->
+                <div id="blog" class="show-bar">
+                    <div class="blog-title">My Blogs</div>
+                    <div class="blog-tag">Keep your mind educated on what i do</div>
+                    
+                    <div class="blog-list">
+                    
+                        <div class="blog-tab">
+                            
+                            <div class="blog-image">
+                                <img src="./assets/images/blog1.png">
+                            </div>
+                            <div class="blog-name">Top 10 Gaming Websites in USA</div>
+                            <div class="blog-link-tab">
+                            
+                                <div class="blog-heart"><i class="far fa-heart"></i></div>
+                                <div class="blog-link"><i class="far fa-arrow-right"></i></div>
+                                
+                            </div>
+                        </div>
+                        <div class="blog-tab">
+                            
+                            <div class="blog-image">
+                                <img src="./assets/images/blog2.png">
+                            </div>
+                            <div class="blog-name">5 Mistakes to avoid in music mixing</div>
+                            <div class="blog-link-tab">
+                            
+                                <div class="blog-heart"><i class="far fa-heart"></i></div>
+                                <div class="blog-link"><i class="far fa-arrow-right"></i></div>
+                                
+                            </div>
+                        </div>
+                        <div class="blog-tab">
+                            
+                            <div class="blog-image">
+                                <img src="./assets/images/blog3.png">
+                            </div>
+                            <div class="blog-name">How to make Tic-Tac game in Python</div>
+                            <div class="blog-link-tab">
+                            
+                                <div class="blog-heart"><i class="far fa-heart"></i></div>
+                                <div class="blog-link"><i class="far fa-arrow-right"></i></div>
+                                
+                            </div>
+                        </div>
+                        <div class="blog-tab">
+                            
+                            <div class="blog-image">
+                                <img src="./assets/images/blog4.png">
+                            </div>
+                            <div class="blog-name">GTA Samp: Development</div>
+                            <div class="blog-link-tab">
+                            
+                                <div class="blog-heart"><i class="far fa-heart"></i></div>
+                                <div class="blog-link"><i class="far fa-arrow-right"></i></div>
+                                
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    
+                    <div class="blog-btn-tab">
+                        <div class="blog-btn">SEE MORE</div>
+                    </div>
+                </div>
+                
+            
+            
+            
+            <!--CONTACT BAR-->
+            <div id="contact" class="show-bar">
+                <div class="contact-title">My Contact Information</div>
+                <div class="contact-tag">Reach out to me today</div>
+                
+                <!--CONTACT LIST-->
+                <div class="contact-list">
+                
+                    <div class="contact-tab">
+                        <div class="contact-icon"><i class="far fa-phone-volume"></i></div>
+                        <div class="contact-name">Phone</div>
+                        <div class="contact-des">What's stopping you from dialing my number right now?</div>
+                        <div class="contact-value">+639552352424</div>
+                        <div class="contact-value">+639916140587</div>
+                    </div>
+                    <div class="contact-tab">
+                        <div class="contact-icon"><i class="far fa-map"></i></div>
+                        <div class="contact-name">Location</div>
+                        <div class="contact-des">Would you prefer to rather meet me in person?</div>
+                        <div class="contact-value">North Cotabato Kidapawan City</div>
+                    </div>
+                    <div class="contact-tab">
+                        <div class="contact-icon"><i class="far fa-envelope"></i></div>
+                        <div class="contact-name">Email</div>
+                        <div class="contact-des">Mailing should be your best choice of communication.</div>
+                        <div class="contact-value">ariesoliver77@gmail.com</div>
+                    </div>
+                    
+                    
+                </div>             
+                
+                <!--CONTACT FORM-->
+                <div class="contact-form">
+                    <div class="contact-inp-tab split">
+                        <input type="text" class="contact-inp" placeholder="Your Name">
+                        <input type="text" class="contact-inp" placeholder="Phone Number">
+                    </div>
+                    <div class="contact-inp-tab">
+                        <input type="text" class="contact-inp" placeholder="Active Email Address">
+                    </div>
+                    <div class="contact-inp-tab">
+                        <textarea type="text" class="contact-inp" placeholder="Enter Your Message Here"></textarea>
+                    </div>
+                    <div class="contact-btn-tab">
+                        <div class="contact-btn">SUBMIT</div>
+                    </div>
+                </div>
+                
+                <div class="footer">Made by <span>AriesOliver</span> 2024</div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+    </div>
+</main>
+
+
+
+<!--SCRIPTS-->
+<script src="./index.js"></script>
+</body>
+</html>
